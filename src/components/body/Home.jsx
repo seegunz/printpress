@@ -9,6 +9,7 @@ import SectionSeven from './SectionSeven'
 import SectionEight from './SectionEight'
 import SectionNine from './sections/SectionNine'
 import SectionTen from './SectionTen'
+import SectionEleven from './sections/SectionEleven'
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <hr className='border-gray-300 mt-20 mx-40'/>
       <SectionNine />
       <SectionTen />
+      <SectionEleven />
     </div>
   )
 }
