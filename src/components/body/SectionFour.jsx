@@ -1,7 +1,7 @@
 import React from 'react'
 import product from '/imgs/product.png'
 
-export default function SectionFive() {
+export default function SectionFour() {
   return (
     <div className='text-center mt-20 font-bold text-4xl'>
       <h1>Our Partnering Brands</h1>
