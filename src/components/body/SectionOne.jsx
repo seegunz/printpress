@@ -9,7 +9,7 @@ export default function SectionOne() {
             Explore Top-Quality Prints For Your Brand
         </h1>
         <br />
-        <section className='flex gap-5 justify-center mx-30'>
+        <section className='flex flex-wrap gap-5 justify-center mx-30'>
             <Section1 img={product1} title='Flyer Design'/>
             <Section1 img={product1} title='Business Card'/>
             <Section1 img={product1} title='Car Branding'/>
