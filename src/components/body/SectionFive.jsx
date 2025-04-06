@@ -13,7 +13,7 @@ export default function SectionFive() {
         </p>
       </section>
       <section className='w-1/2 flex flex-col gap-y-3'>
-        <div className='flex items-center bg-red-500 w-4/5'>
+        <div className='flex items-center bg-amber-500 w-4/5'>
             <div className='pl-20 text-white'>
                 <h2 className='text-3xl pt-10'>Quick & fast delivery</h2>
                 <p className='text-[10px] pb-10'>reliable and right on time</p>
@@ -31,7 +31,7 @@ export default function SectionFive() {
                 <img src={product} alt="" width={150}/>
             </div>
         </div>
-        <div className='flex items-center bg-red-500 w-4/5'>
+        <div className='flex items-center bg-sky-500 w-4/5'>
             <div className='pl-20 text-white'>
                 <h2 className='text-3xl pt-10 '>Free design and support</h2>
                 <p className='text-[10px] pb-10 '>reliable and right on time</p>
