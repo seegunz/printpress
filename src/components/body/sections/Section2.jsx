@@ -4,7 +4,7 @@ export default function Section2({img, title, product, ratings, price, color, si
   return (
     <div className='flex flex-col justify-center mt-10'>
       <div className='bg-gray-100'>
-        <img src={img} alt="Products" width={150} height={150}/>
+        <img src={img} alt="Products" width={250} height={150}/>
       </div>
       <h2 className='font-semibold text-[12px] mt-2'>{title}</h2>
       <div className='flex text-[10px] gap-2 text-gray-900'>

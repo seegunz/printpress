@@ -10,7 +10,7 @@ export default function SectionTwo() {
         <button className='border rounded-2xl p-1 w-[100px] text-blue-500'>View All</button>
       </div>
 
-      <section className='flex flex-wrap justify-center gap-8'>
+      <section className='flex flex-wrap justify-center items-center gap-8'>
         <Section2 img={product} 
             title="Men's Silk T-Shirt"
             product='Nike Store'

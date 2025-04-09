@@ -8,10 +8,10 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Nav() {
   return (
-    <div className='flex justify-between items-center mx-2 md:mx-40 mt-5'>
-      <div className='flex items-center'>
+    <div className='flex justify-between items-center mx-2 lg:mx-40 mt-5'>
+      <div className='flex items-center gap-3'>
         <img src={logo} alt="PrintFactory" className='cursor-pointer' />
-        <div className='hidden md:flex'>
+        <div className='hidden xl:flex'>
           <nav className='flex gap-3 font-semibold'>
             <a href="">Marketplace</a>
             <a href="" className='text-red-500'>Become a Reseller</a>
@@ -29,7 +29,7 @@ export default function Nav() {
 
       <nav className='flex gap-3 font-semibold items-center'>
 
-        <button className='bg-red-100 p-1 rounded cursor-pointer'>Login</button>
+        <a href='#' className='bg-sky-700 p-1 px-3 rounded text-white rounded-md cursor-pointer'>Dashboard</a>
 
         <div className='hidden md:flex gap-1 items-center cursor-pointer'>
           <IoCartOutline />
