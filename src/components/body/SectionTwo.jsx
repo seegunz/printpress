@@ -4,7 +4,7 @@ import product from '/imgs/product.png'
 
 export default function SectionTwo() {
   return (
-    <div className='mx-40 mt-20'>
+    <div className='mx-2 md:mx-40 mt-20'>
       <div className='flex justify-between'>
         <h1 className='text-2xl font-bold'>Top Featured Products</h1>
         <button className='border rounded-2xl p-1 w-[100px] text-blue-500'>View All</button>
