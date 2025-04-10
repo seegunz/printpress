@@ -1,13 +1,15 @@
 import React from 'react'
 import Section7 from './sections/Section7'
-import product from '/imgs/product.png'
+import delivery from '/imgs/sectionvii/delivery.png'
+import frame from '/imgs/sectionvii/frame.png'
+import ds from '/imgs/sectionvii/dsgnar.png'
 
 export default function SectionSeven() {
   return (
-    <div className='flex justify-center gap-5'>
-      <Section7 no='1' img={product} topic='Pick a Product' text='Choose from our product catelog.'/>
-      <Section7 no='2' img={product} topic='Create a Design' text='Use built-in tools to design direct on your product.'/>
-      <Section7 no='3' img={product} topic='Order the Product' text='Sit tight while we fulfill ad ship your order.'/>
+    <div className='flex justify-center px-2 gap-5'>
+      <Section7 no='1' img={frame} topic='Create a Design' text='Use built-in tools to design direct on your product.'/>
+      <Section7 no='2' img={ds} topic='Order the Product' text='Sit tight while we fulfill and ship your order.'/>
+      <Section7 no='3' img={delivery} topic='Pick a Product' text='Choose from our product catelog.'/>
     </div>
   )
 }

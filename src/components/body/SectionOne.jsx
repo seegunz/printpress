@@ -14,11 +14,11 @@ export default function SectionOne() {
         </h1>
         <br />
         <section className='flex justify-center flex-wrap gap-x-5'>
-            <Section1 img={flyer} title='Flyer Design'/>
-            <Section1 img={card} title='Business Card'/>
-            <Section1 img={car} title='Car Branding'/>
-            <Section1 img={banner} title='Rollup Banner'/>
-            <Section1 img={box} title='Gift Box'/>
+            <Section1 img={flyer} title='Flyer Design' size='hover:w-96'/>
+            <Section1 img={card} title='Business Card' size='hover:w-96'/>
+            <Section1 img={car} title='Car Branding' size='hover:w-96'/>
+            <Section1 img={banner} title='Rollup Banner' size='hover:h-60'/>
+            <Section1 img={box} title='Gift Box' size='hover:w-96'/>
         </section>
     </div>
   )

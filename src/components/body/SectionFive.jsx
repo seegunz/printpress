@@ -1,45 +1,19 @@
 import React from 'react'
-import product from '/imgs/product.png'
+import product from '/imgs/sectionv/frame.png'
 
 export default function SectionFive() {
   return (
-    <div className='mt-40 flex px-40 justify-between gap-x-10'>
-      <section className='w-1/2'>
+    <div className='mt-40 flex flex-col xl:flex-row px-2 lg:px-20 xl:px-40 justify-between gap-y-10 gap-x-10'>
+      <section className='w-full xl:w-1/2'>
         <h1 className='text-4xl font-semibold'>Why choose Printfactory?</h1>
-        <p className='text-3xl mt-10 leading-[1.9]'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis debitis tempore, ad repudiandae
-             est harum. Nobis similique eligendi cupiditate reiciendis illo officia enim recusandae temporibus. Ipsum ducimus ab possimus 
-             voluptate.
-             est harum. Nobis similique eligendi cupiditate reiciendis illo officia enim recusandae temporibus. 
+        <p className='text-2xl xl:text-2xl 2xl:text-3xl mt-10 leading-[1.8] 2xl:leading-[1.9]'>
+          At Printfactory, we're all about providing you with the easiest, most reliable printing service you'll ever use. 
+          We understand the importance of your brand's presentation, which is why we offer an 
+          extensive range of designs and top-quality print products to make sure your business stands out.
         </p>
       </section>
-      <section className='w-1/2 flex flex-col gap-y-3'>
-        <div className='flex items-center bg-amber-500 w-4/5'>
-            <div className='pl-20 text-white'>
-                <h2 className='text-3xl pt-10'>Quick & fast delivery</h2>
-                <p className='text-[10px] pb-10'>reliable and right on time</p>
-            </div>
-            <div>
-                <img src={product} alt="" width={150}/>
-            </div>
-        </div>
-        <div className='flex items-center bg-red-500 w-4/5'>
-            <div className='pl-20 text-white'>
-                <h2 className='text-3xl pt-10'>Print more, earn more</h2>
-                <p className='text-[10px] pb-10 '>Turn every print into profit</p>
-            </div>
-            <div>
-                <img src={product} alt="" width={150}/>
-            </div>
-        </div>
-        <div className='flex items-center bg-sky-500 w-4/5'>
-            <div className='pl-20 text-white'>
-                <h2 className='text-3xl pt-10 '>Free design and support</h2>
-                <p className='text-[10px] pb-10 '>reliable and right on time</p>
-            </div>
-            <div>
-                <img src={product} alt="" width={150}/>
-            </div>
-        </div>
+      <section className='w-full xl:w-1/2 flex flex-col gap-y-3'>
+        <img src={product} alt="deliveries" />
       </section>
     </div>
   )

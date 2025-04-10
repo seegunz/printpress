@@ -17,7 +17,7 @@ export default function Home() {
     <div>
       <SectionOne />
       <hr className='mx-20 mt-20 border-gray-300'/>
-      <SectionTwo />
+      {/* <SectionTwo /> */}
       <SectionThree />
       <SectionFour />
       <SectionFive />
