@@ -41,7 +41,7 @@ export default function Footer() {
         <a href="#" className='text-[#484848] hover:text-black hover:font-semibold hover:text-[15px]'>Sipsonlevon</a>
       </section>
     </div>
-    <div>
+    <div className='pb-12'>
       <hr className='mt-10 border-gray-300 mx-2 lg:mx-40'/>
       <div className='flex justify-between items-center px-2 md:px-20 lg:px-40 mt-10'>
         <img src={logo} alt="logo" className='w-32 md:w-40'/>
