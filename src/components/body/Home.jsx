@@ -7,10 +7,10 @@ import SectionFive from './SectionFive'
 import SectionSix from './SectionSix'
 import SectionSeven from './SectionSeven'
 import SectionEight from './SectionEight'
-import SectionNine from './sections/SectionNine'
+import SectionNine from './SectionNine'
 import SectionTen from './SectionTen'
-import SectionEleven from './sections/SectionEleven'
-import SectionTwelve from './sections/SectionTwelve'
+import SectionEleven from './SectionEleven'
+import SectionTwelve from './SectionTwelve'
 
 export default function Home() {
   return (
