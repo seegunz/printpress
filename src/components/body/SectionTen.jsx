@@ -31,19 +31,19 @@ export default function Testimonial() {
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 1 }}
-      className="mx-2 md:mx-20 2xl:mx-40"
+      className=" testimonial mt-20"
     >
       <motion.div
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 1 }}
-        className="md:pt-20 pt-10 md:px-5 px-3 w-full lg:w-2/3 xl:w-1/2 text-black"
+        className="mx-2 md:mx-20 2xl:mx-40 md:pt-20 pt-10 md:px-5 px-3 w-full lg:w-2/3 xl:w-1/2 text-black"
       >
         <motion.h1
           initial={{ scale: 0.9, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1 }}
-          className="text-4xl font-semibold "
+          className="text-4xl font-bold text-white"
         >
           What Our Clients Say
         </motion.h1>

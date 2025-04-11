@@ -24,7 +24,7 @@ export default function Home() {
       <SectionSix />
       <SectionSeven />
       <SectionEight />
-      <hr className='border-gray-300 mt-20 mx-40'/>
+      <hr className='border-gray-300 mt-20 mx-2 md:mx-20 xl:mx-40'/>
       <SectionNine />
       <SectionTen />
       <SectionEleven />

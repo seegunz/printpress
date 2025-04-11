@@ -8,7 +8,7 @@ import flyer from '/imgs/sectioni/flyer.png'
 
 export default function SectionOne() {
   return (
-    <div className='mt-40 '>
+    <div className='mt-20 '>
         <h1 className='text-center text-3xl text-[#484848] md:text-5xl font-bold px-2'>
             Explore Top-Quality Prints For Your Brand
         </h1>
