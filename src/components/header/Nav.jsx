@@ -8,7 +8,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Nav() {
   return (
-    <div className='flex justify-between items-center mx-2 lg:mx-40 mt-5'>
+    <div className='sticky top-0 bg-white z-1000  flex justify-between items-center py-8 px-2 lg:px-40 mt-5'>
       <div className='flex items-center gap-3'>
         <img src={logo} alt="PrintFactory" className='cursor-pointer' />
         <div className='hidden xl:flex'>

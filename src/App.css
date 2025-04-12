@@ -1,9 +1,14 @@
 @import "tailwindcss";
 
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200;300;400;600;700;800;900&display=swap');
+
+
 *{
     box-sizing: border-box;
+    /* font-family: "Biryani", sans-serif !important; */
+    font-style: normal;
 }
-  
+
 .video-bg video {
     object-fit: cover;
     width: 100%;
@@ -18,10 +23,11 @@
 }
 
 .testimonial{
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgb(9, 35, 80)),url('/imgs/truck.png');
+    background-image: linear-gradient(rgba(0,0,0,0.7),#014e7e),url('/imgs/truck.png');
     width: 100%;
     height: 50vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+

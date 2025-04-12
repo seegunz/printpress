@@ -10,9 +10,10 @@ export default function Section10({testimony, img, name, occupation}) {
             <div>
                 <h2 className='font-semibold text-[14px]'>{name}</h2>
                 <p className='text-[10px] text-gray-600'>{occupation}</p>
+                <div className='text-black'><IoStarSharp /></div>
             </div>
         </section>
-        ratings
+
       </div>
 
     </div>

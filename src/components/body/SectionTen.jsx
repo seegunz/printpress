@@ -3,6 +3,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { list } from './sections/data/data';
 import { motion } from 'framer-motion';
+import { IoStarSharp } from "react-icons/io5";
 
 
 export default function Testimonial() {
@@ -69,15 +70,22 @@ export default function Testimonial() {
                   initial={{ width: 0 }}
                   whileInView={{ width: '100%' }}
                   transition={{ duration: 1 }}
-                  className="border border-sky-500"
+                  className="border border-sky-700"
                 />
                 <motion.h2
                   initial={{ scale: 0.9, opacity: 0 }}
                   whileInView={{ scale: 1, opacity: 1 }}
                   transition={{ duration: 1 }}
-                  className="mt-5 text-2xl font-bold"
+                  className="mt-5 text-2xl font-bold text-sky-700 flex justify-between"
                 >
                   {d.name}
+                  <div className='flex text-amber-400'>
+                    <IoStarSharp />
+                    <IoStarSharp />
+                    <IoStarSharp />
+                    <IoStarSharp />
+                    <IoStarSharp />
+                  </div>
                 </motion.h2>
               </motion.div>
             );

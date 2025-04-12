@@ -8,7 +8,7 @@ export default function SectionEleven() {
             <h1 className='text-3xl lg:text-5xl font-bold'>become a reseller.</h1>
         </section>
         <section className='flex justify-end'>
-            <button className='bg-red-500 w-40 py-4 border border-white rounded-2xl font-bold'>Start now</button>
+            <button className='bg-[#FE4949] w-40 py-4 border border-white rounded-2xl font-bold'>Start now</button>
         </section>
     </div>
   )

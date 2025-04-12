@@ -3,8 +3,8 @@ import video from '/video.mp4'
 
 export default function SectionThree() {
   return (
-    <div className='flex justify-center mt-10 video-bg w-[100%] h-[35vh]'>
-      <video src={video} autoPlay loop muted/>
+    <div className='video-bg mt-10 h-[25ch] md:h-[35vh] lg:h-full'>
+      <video src={video} autoPlay loop muted playsInline preload="auto" className="w-full h-full object-cover"/>
     </div>
   )
 }
