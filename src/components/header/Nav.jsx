@@ -11,7 +11,7 @@ export default function Nav() {
     <div className='sticky top-0 bg-white z-1000  flex justify-between items-center py-8 px-2 lg:px-40 mt-5'>
       <div className='flex items-center gap-3'>
         <img src={logo} alt="PrintFactory" className='cursor-pointer' />
-        <div className='hidden xl:flex'>
+        <div className='hidden 2xl:flex'>
           <nav className='flex gap-3 font-semibold'>
             <a href="">Marketplace</a>
             <a href="" className='text-red-500'>Become a Reseller</a>
